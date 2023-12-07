@@ -1,0 +1,21 @@
+2023-12-07T10:23:48.509+05:30  WARN 27292 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h4m5s764ms49µs100ns).
+2023-12-07T10:26:50.963+05:30  INFO 27292 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-07T10:26:50.985+05:30  INFO 27292 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-07T10:26:51.305+05:30  INFO 27292 --- [restartedMain] com.cg.ip.AssignmentApplication          : Starting AssignmentApplication using Java 17.0.5 with PID 27292 (C:\MySpringBootWork\Assignment\bin\main started by riebim in C:\MySpringBootWork\Assignment)
+2023-12-07T10:26:51.306+05:30  INFO 27292 --- [restartedMain] com.cg.ip.AssignmentApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-12-07T10:26:51.780+05:30  INFO 27292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-07T10:26:51.781+05:30  INFO 27292 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-07T10:26:51.826+05:30  INFO 27292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-07T10:26:51.913+05:30  INFO 27292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-07T10:26:51.919+05:30  INFO 27292 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-07T10:26:51.925+05:30  INFO 27292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-12-07T10:26:52.221+05:30  INFO 27292 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@4f92bfb8
+2023-12-07T10:26:52.222+05:30  INFO 27292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-12-07T10:26:52.241+05:30  WARN 27292 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-07T10:26:52.286+05:30  INFO 27292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-07T10:26:52.363+05:30  INFO 27292 --- [restartedMain] c.c.ip.controller.AppoinmentsController  : ---appoinments Controller Called --
+2023-12-07T10:26:52.363+05:30  WARN 27292 --- [restartedMain] c.c.ip.controller.AppoinmentsController  : ---appoinments Controller Called --
+2023-12-07T10:26:52.448+05:30  WARN 27292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-07T10:26:52.650+05:30  INFO 27292 --- [restartedMain] com.cg.ip.AssignmentApplication          : Started AssignmentApplication in 1.391 seconds (process running for 87925.521)
+2023-12-07T10:27:00.604+05:30  INFO 27292 --- [http-nio-2002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07T10:27:00.628+05:30  INFO 27292 --- [http-nio-2002-exec-2] c.c.ip.controller.AppoinmentsController  : ---->> Appoinment savedAppoinments(id=1, subject=Harvestive visit, startTime=2023-11-28T12:30, endTime=2023-11-28T12:30)
